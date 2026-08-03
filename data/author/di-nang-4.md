@@ -1,5 +1,5 @@
 ```yaml
-# DỊ NĂNG 4
+#DỊ NĂNG 4
  - so: 4
     ten: "HUYẾT TINH VÕ TRANG"
     ban_chat_cot_loi: "Điều khiển máu đã rời khỏi cơ thể, cô đặc và kết tinh nó thành cấu trúc vật lý."
@@ -94,5 +94,5 @@
       - "Tạo trường huyết tinh."
     can_bang:
       - "Buff: lượng máu điều khiển 1,5 → 2,5 lít; phạm vi 15 → 20 mét; thời gian kết tinh 30 → 60 phút."
-# HẾT FILE
+#HẾT FILE
 ```
