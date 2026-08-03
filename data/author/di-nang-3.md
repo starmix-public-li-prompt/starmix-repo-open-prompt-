@@ -91,3 +91,4 @@
     can_bang:
       - "Buff: khối lượng mỗi lần 50 → 120 kg; phạm vi từ điểm tiếp xúc 1 → 2 mét; tiêu hao giảm khoảng một phần ba."
 #HẾT FILE
+```
