@@ -1,5 +1,5 @@
 ```yaml
-#DI NĂNG SỐ 1
+#DI NĂNG 1
   - so: 1
     ten: "TĨNH ÂM TUYỆT VỰC"
     ban_chat_cot_loi: "Hấp thụ, làm suy yếu và triệt tiêu dao động âm thanh trong phạm vi kiểm soát."
