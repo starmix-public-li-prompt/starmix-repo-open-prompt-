@@ -1,3 +1,4 @@
+```yaml
 #DỊ NĂNG THỨ 32
 - so: 32
   ten: "HÔ ỨNG BẦY ĐÀN"
@@ -96,3 +97,4 @@
   can_bang:
     - "Giữ dải chuẩn: hồ sơ hiện tại đã nằm đúng dải cân bằng."
 #HẾT FILE
+```
