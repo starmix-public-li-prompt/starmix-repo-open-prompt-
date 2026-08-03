@@ -1,0 +1,924 @@
+di_nang:
+  - so: 1
+    ten: "TĨNH ÂM TUYỆT VỰC"
+    ban_chat_cot_loi: "Hấp thụ, làm suy yếu và triệt tiêu dao động âm thanh trong phạm vi kiểm soát."
+    kha_nang_lv1: |
+      Người chơi có thể tạo một vùng tĩnh âm hình cầu với bán kính tối đa 6 mét.
+
+      Tâm vùng tĩnh âm có thể được đặt:
+
+      - Tại vị trí cơ thể người chơi.
+      - Tại một điểm cố định trong tầm nhìn, cách người chơi không quá 12 mét.
+
+      Mọi âm thanh phát sinh bên trong vùng tĩnh âm đều bị hấp thụ trước khi có thể truyền ra ngoài.
+
+      Âm thanh từ bên ngoài truyền vào vùng cũng bị suy yếu nghiêm trọng, chỉ còn những dao động rất nhỏ hoặc hoàn toàn biến mất tùy cường độ.
+
+      Dị năng có thể triệt tiêu:
+
+      - Tiếng bước chân.
+      - Tiếng nói.
+      - Tiếng hét.
+      - Tiếng súng.
+      - Tiếng kính vỡ.
+      - Tiếng kim loại va chạm.
+      - Tiếng động cơ.
+      - Tiếng mở cửa.
+      - Tiếng đồ vật rơi.
+      - Âm thanh do sinh vật tạo ra.
+
+      Người chơi có thể:
+
+      - Thu hẹp bán kính để giảm tiêu hao.
+      - Di chuyển vùng tĩnh âm theo cơ thể nếu lấy bản thân làm tâm.
+      - Giữ vùng tĩnh âm đứng yên nếu đặt tại một vị trí khác.
+      - Chủ động tắt dị năng bất cứ lúc nào.
+      - Cảm nhận tương đối ranh giới của vùng tĩnh âm.
+
+      Ở Lv1, người chơi chỉ duy trì được một vùng tĩnh âm tại cùng một thời điểm.
+    gioi_han:
+      - "Không triệt tiêu sóng xung kích."
+      - "Không triệt tiêu lực nổ."
+      - "Không chặn áp suất sinh ra từ vụ nổ."
+      - "Không triệt tiêu rung động vật lý truyền qua mặt đất, tường hoặc kết cấu công trình."
+      - "Không chặn ánh sáng."
+      - "Không chặn sóng vô tuyến."
+      - "Không chặn tín hiệu điện tử."
+      - "Không chặn liên lạc bằng hình ảnh hoặc cử chỉ."
+      - "Không ngăn cảm biến rung động phát hiện chuyển động."
+      - "Người chơi cũng không nghe được âm thanh phát sinh trong vùng."
+      - "Chưa thể lựa chọn cho một âm thanh cụ thể đi qua."
+      - "Chưa thể nén âm thanh đã hấp thụ thành đòn tấn công."
+    tieu_hao_va_phan_phe: |
+      Duy trì trong thời gian dưới 30 phút liên tục chỉ gây:
+
+      - Hao hụt thể lực rất nhẹ.
+      - Tăng khoảng 1% độ đói.
+      - Tăng khoảng 2% độ khát.
+      - Cảm giác tai bị bịt kín sau khi tắt dị năng.
+
+      Duy trì liên tục từ 30 phút đến 1 giờ có thể gây:
+
+      - Ù tai nhẹ.
+      - Đầu hơi nặng.
+      - Khó xác định phương hướng ngay sau khi tắt vùng tĩnh âm.
+      - Tăng tổng cộng khoảng 3% độ đói và 5% độ khát.
+
+      Chỉ khi duy trì vượt quá 1 giờ liên tục mới bắt đầu xuất hiện phản phệ rõ:
+
+      - Đau đầu.
+      - Ù tai mạnh.
+      - Rối loạn tiền đình.
+      - Chóng mặt.
+      - Khó giữ thăng bằng.
+
+      Nếu cố duy trì quá 90 phút khi đã xuất hiện phản phệ, người chơi có thể:
+
+      - Mất thính giác tạm thời.
+      - Nôn ói.
+      - Ngất.
+    huong_phat_trien:
+      - "Mở rộng bán kính."
+      - "Tăng khoảng cách đặt vùng."
+      - "Tạo nhiều vùng cùng lúc."
+      - "Cho phép âm thanh được chọn đi qua."
+      - "Chỉ triệt tiêu một loại tần số."
+      - "Tạo hành lang tĩnh âm."
+      - "Kéo dài thời gian duy trì an toàn."
+      - "Giảm tiêu hao."
+      - "Cảm nhận vật thể thông qua dao động âm."
+      - "Lưu trữ âm thanh đã hấp thụ."
+      - "Nén âm thanh thành sóng xung kích."
+      - "Phóng thích toàn bộ âm thanh tại một điểm được chọn."
+    can_bang:
+      - "Buff: bán kính vùng 6 → 10 mét; khoảng cách đặt tâm 12 → 20 mét; duy trì an toàn 30 → 45 phút."
+  - so: 2
+    ten: "HỒI LƯU ĐỘNG NĂNG"
+    ban_chat_cot_loi: "Hấp thụ một phần động năng từ va chạm vật lý, tích trữ và giải phóng lại dưới hình thức lực cơ học."
+    kha_nang_lv1: |
+      Khi cơ thể người chơi hoặc vật đang được người chơi trực tiếp cầm giữ chịu một tác động vật lý, dị năng có thể hấp thụ tối đa khoảng 40% động năng của tác động đó.
+
+      Động năng có thể được hấp thụ từ:
+
+      - Cú đấm.
+      - Cú đá.
+      - Đòn đánh bằng vũ khí cùn.
+      - Va chạm với vật thể.
+      - Vật thể bay.
+      - Cú ngã.
+      - Cú đâm của sinh vật.
+      - Lực giật hoặc lực đẩy.
+      - Một phần lực từ đạn nếu người chơi có vật chắn phù hợp.
+
+      Phần động năng không được hấp thụ vẫn tác động lên người chơi hoặc vật đang cầm.
+
+      Năng lượng đã hấp thụ được tích trữ trong cơ thể dưới dạng một kho động năng.
+
+      Người chơi có thể giải phóng:
+
+      - Toàn bộ năng lượng.
+      - Một phần năng lượng.
+      - Nhiều lần nhỏ thay vì một lần lớn.
+
+      Động năng có thể được giải phóng qua:
+
+      - Cú đấm.
+      - Cú đá.
+      - Cú thúc vai.
+      - Vũ khí cận chiến.
+      - Lực đẩy từ lòng bàn tay.
+      - Cú bật chân để nhảy cao hoặc lao nhanh.
+      - Giảm lực tiếp đất khi rơi.
+      - Đẩy một vật nặng.
+      - Tăng tốc một vật được ném đi.
+
+      Năng lượng tích trữ tồn tại tối đa khoảng 20 phút trước khi bắt đầu tiêu tán.
+
+      Giới hạn tích trữ ở Lv1 tương đương động năng của một chiếc xe máy đang di chuyển nhanh va chạm trực diện.
+    gioi_han:
+      - "Không hấp thụ toàn bộ sát thương."
+      - "Không hấp thụ nhiệt."
+      - "Không hấp thụ điện."
+      - "Không hấp thụ hóa chất."
+      - "Không hấp thụ độc tố."
+      - "Không hấp thụ phóng xạ."
+      - "Không hấp thụ sát thương tinh thần."
+      - "Không hấp thụ dị năng không tạo ra lực vật lý."
+      - "Không thể hấp thụ lực khi người chơi không kịp kích hoạt hoặc hoàn toàn mất ý thức."
+      - "Lực giải phóng vẫn phải truyền qua cơ thể hoặc vật dẫn."
+      - "Vật quá yếu có thể vỡ khi được dùng để truyền động năng."
+      - "Không thể tích trữ vượt giới hạn an toàn."
+    tieu_hao_va_phan_phe: |
+      Mỗi lần hấp thụ hoặc giải phóng một lượng động năng nhỏ chỉ gây:
+
+      - Cảm giác căng nhẹ ở cơ.
+      - Mỏi tay hoặc chân tương tự vận động thể chất.
+      - Tăng khoảng 0,5% độ đói.
+      - Tăng khoảng 0,5–1% độ khát.
+
+      Khi giải phóng gần toàn bộ kho động năng:
+
+      - Cơ bắp tại vị trí giải phóng bị nhức mỏi tương tự sau khi chặt củi hoặc tập nặng.
+      - Tăng khoảng 1,5% độ đói.
+      - Tăng khoảng 2% độ khát.
+      - Có thể tê nhẹ bàn tay hoặc bàn chân trong vài phút.
+
+      Sử dụng nhiều lần liên tiếp trong thời gian ngắn có thể gây:
+
+      - Chuột rút.
+      - Run cơ.
+      - Đau khớp.
+      - Giảm độ chính xác.
+
+      Chỉ khi cố tích trữ vượt giới hạn hoặc giải phóng lực lớn hơn khả năng chịu đựng của cơ thể mới có nguy cơ:
+
+      - Trật khớp.
+      - Rách cơ.
+      - Gãy xương.
+      - Đứt dây chằng.
+    huong_phat_trien:
+      - "Tăng tỷ lệ hấp thụ."
+      - "Tăng giới hạn tích trữ."
+      - "Kéo dài thời gian giữ năng lượng."
+      - "Hấp thụ động năng qua khoảng cách ngắn."
+      - "Chuyển động năng giữa các vật thể."
+      - "Phân tán lực tác động ra toàn cơ thể."
+      - "Tạo lớp phòng thủ động năng."
+      - "Chuyển hướng đạn hoặc vật thể bay."
+      - "Giải phóng lực theo diện rộng."
+      - "Tạo sóng xung kích."
+      - "Hấp thụ chấn động từ mặt đất."
+      - "Chuyển động năng thành tốc độ di chuyển."
+    can_bang:
+      - "Buff: tỷ lệ hấp thụ 40% → 60%; giữ năng lượng 20 → 30 phút; trần tích trữ tăng 50% (tương đương ô tô con va chạm trực diện)."
+  - so: 3
+    ten: "TÁI BIÊN KẾT CẤU"
+    ban_chat_cot_loi: "Cảm nhận, tháo rời và sắp xếp lại cấu trúc vật chất vô cơ thông qua tiếp xúc trực tiếp."
+    kha_nang_lv1: |
+      Khi đặt bàn tay lên vật chất vô cơ, người chơi có thể cảm nhận sơ bộ:
+
+      - Vết nứt.
+      - Điểm yếu.
+      - Phần bị ăn mòn.
+      - Khu vực rỗng.
+      - Mối nối.
+      - Cấu trúc không ổn định.
+      - Tạp chất lớn.
+
+      Người chơi có thể tác động lên tối đa khoảng 50 kg vật chất trong một lần sử dụng.
+
+      Có thể:
+
+      - Hàn kín vết nứt.
+      - Ghép các mảnh vỡ lại.
+      - Gia cố cửa.
+      - Gia cố tường.
+      - Gia cố vũ khí.
+      - Gia cố công cụ.
+      - Loại bỏ gỉ sét.
+      - Nắn thẳng kim loại cong.
+      - Làm mềm tạm thời một vùng vật liệu để uốn.
+      - Ép vật liệu vụn kết dính thành một khối.
+      - Tạo móc, chốt, lưỡi hoặc hình dạng đơn giản.
+      - Bịt một lỗ thủng nhỏ.
+      - Sửa vật dụng cơ học đơn giản nếu người chơi hiểu cấu tạo.
+
+      Dị năng không tự tạo thêm vật chất. Mọi thay đổi phải sử dụng nguyên liệu đang tồn tại.
+
+      Người chơi có thể xử lý vật liệu trong phạm vi khoảng 1 mét tính từ điểm tiếp xúc, miễn là các phần vật liệu còn liên kết với nhau.
+    gioi_han:
+      - "Không tác động trực tiếp lên vật chất sống."
+      - "Không tạo vật chất từ hư vô."
+      - "Không thay đổi nguyên tố."
+      - "Không biến gỗ thành kim loại."
+      - "Không biến đá thành thép."
+      - "Không tạo thiết bị điện tử phức tạp nếu không hiểu cấu tạo."
+      - "Không tự bổ sung linh kiện bị thiếu."
+      - "Vật liệu quá khác nhau chỉ có thể ghép tạm nếu không có cấu trúc liên kết phù hợp."
+      - "Không thể tái tạo dữ liệu bị mất trong thiết bị."
+      - "Không thể sửa một cỗ máy nếu bộ phận thiết yếu đã hoàn toàn biến mất."
+    tieu_hao_va_phan_phe: |
+      Xử lý dưới 10 kg vật liệu chỉ gây:
+
+      - Mỏi bàn tay nhẹ.
+      - Tăng khoảng 1% độ đói.
+      - Tăng khoảng 1% độ khát.
+
+      Xử lý từ 10–30 kg gây:
+
+      - Cảm giác nóng ở lòng bàn tay.
+      - Mỏi cơ cánh tay.
+      - Tăng khoảng 2–3% độ đói.
+      - Tăng khoảng 3% độ khát.
+
+      Xử lý gần giới hạn 50 kg gây:
+
+      - Mệt rõ rệt.
+      - Run tay nhẹ.
+      - Tăng khoảng 5% độ đói.
+      - Tăng khoảng 5–7% độ khát.
+
+      Chỉ khi liên tục xử lý hàng trăm kilôgam vật chất mà không nghỉ mới có nguy cơ:
+
+      - Hạ đường huyết.
+      - Chuột rút.
+      - Hoa mắt.
+      - Kiệt sức.
+      - Ngất.
+    huong_phat_trien:
+      - "Tăng khối lượng tác động."
+      - "Tăng phạm vi từ điểm tiếp xúc."
+      - "Tăng tốc độ tái cấu trúc."
+      - "Điều khiển vật liệu không cần chạm trực tiếp."
+      - "Ghép vật liệu khác loại bền vững hơn."
+      - "Phân rã vật chất."
+      - "Tái chế vật liệu."
+      - "Tạo công cụ phức tạp."
+      - "Sửa thiết bị cơ khí."
+      - "Sửa thiết bị điện tử."
+      - "Dựng tường hoặc công trình nhanh."
+      - "Tạo vũ khí bằng vật liệu xung quanh."
+      - "Thay đổi mật độ và độ cứng của vật liệu."
+    can_bang:
+      - "Buff: khối lượng mỗi lần 50 → 120 kg; phạm vi từ điểm tiếp xúc 1 → 2 mét; tiêu hao giảm khoảng một phần ba."
+  - so: 4
+    ten: "HUYẾT TINH VÕ TRANG"
+    ban_chat_cot_loi: "Điều khiển máu đã rời khỏi cơ thể, cô đặc và kết tinh nó thành cấu trúc vật lý."
+    kha_nang_lv1: |
+      Người chơi có thể cảm nhận và điều khiển máu đang chảy tự do trong phạm vi tối đa 15 mét.
+
+      Tổng lượng máu có thể điều khiển cùng lúc tối đa khoảng 1,5 lít.
+
+      Máu có thể được cô đặc và kết tinh thành:
+
+      - Kim nhọn.
+      - Phi tiêu.
+      - Dao.
+      - Kiếm ngắn.
+      - Mũi tên.
+      - Dây máu.
+      - Roi ngắn.
+      - Móc.
+      - Khiên nhỏ.
+      - Giáp che một phần cơ thể.
+      - Cọc nhọn.
+      - Đạn huyết tinh nhỏ.
+
+      Vật thể huyết tinh có độ cứng tương đương thép thông thường.
+
+      Người chơi có thể:
+
+      - Điều khiển đường bay của vật thể huyết tinh.
+      - Thay đổi hình dạng vật thể trong phạm vi.
+      - Thu hồi máu chưa bị nhiễm bẩn.
+      - Giữ máu ở trạng thái kết tinh trong tối đa 30 phút.
+      - Tạo lớp kết tinh trên vết thương ngoài da để hỗ trợ cầm máu tạm thời.
+      - Điều khiển nhiều vật thể nhỏ cùng lúc.
+    gioi_han:
+      - "Không điều khiển máu vẫn nằm hoàn toàn trong cơ thể nguyên vẹn."
+      - "Không rút máu xuyên qua da."
+      - "Không trực tiếp làm nổ mạch máu bên trong mục tiêu."
+      - "Không điều khiển máu đã khô hoàn toàn."
+      - "Không điều khiển máu đã phân hủy nghiêm trọng."
+      - "Máu nhiễm độc vẫn giữ độc tính."
+      - "Máu nhiễm phóng xạ vẫn nguy hiểm."
+      - "Máu NBM có thể có tính chất bất thường."
+      - "Máu không tự sinh thêm."
+      - "Việc cầm máu chỉ mang tính tạm thời, không thay thế sơ cứu."
+    tieu_hao_va_phan_phe: |
+      Điều khiển máu của sinh vật khác với lượng dưới 500 ml chỉ gây:
+
+      - Mỏi tinh thần nhẹ.
+      - Tăng khoảng 1% độ đói.
+      - Tăng khoảng 2% độ khát.
+
+      Điều khiển từ 500 ml đến 1,5 lít gây:
+
+      - Đau đầu nhẹ.
+      - Khô miệng.
+      - Tăng khoảng 2–4% độ đói.
+      - Tăng khoảng 3–6% độ khát.
+
+      Dùng máu của chính người chơi không trực tiếp gây phản phệ từ dị năng, nhưng lượng máu mất vẫn gây hậu quả sinh học bình thường:
+
+      - Chóng mặt.
+      - Tụt huyết áp.
+      - Thiếu máu.
+      - Ngất nếu mất quá nhiều.
+
+      Điều khiển máu NBM không mặc định khiến người chơi bị độc ngay lập tức. Nguy cơ chỉ tăng khi:
+
+      - Máu tiếp xúc trực tiếp với vết thương.
+      - Máu bắn vào mắt hoặc miệng.
+      - Người chơi duy trì điều khiển quá lâu.
+      - Máu chứa tác nhân có khả năng tác động qua dị năng.
+
+      Lạm dụng có thể gây:
+
+      - Đau đầu.
+      - Chảy máu mũi.
+      - Giảm tập trung.
+      - Mất ổn định vật thể huyết tinh.
+    huong_phat_trien:
+      - "Tăng lượng máu kiểm soát."
+      - "Tăng phạm vi."
+      - "Tăng độ cứng."
+      - "Tăng thời gian kết tinh."
+      - "Tạo giáp hoàn chỉnh."
+      - "Tạo vũ khí lớn."
+      - "Điều khiển hàng trăm vật thể nhỏ."
+      - "Lọc độc tố."
+      - "Tách thành phần trong máu."
+      - "Thu hồi máu an toàn."
+      - "Tạo sinh vật huyết tinh."
+      - "Điều khiển máu trong cơ thể qua vết thương hở."
+      - "Tạo trường huyết tinh."
+    can_bang:
+      - "Buff: lượng máu điều khiển 1,5 → 2,5 lít; phạm vi 15 → 20 mét; thời gian kết tinh 30 → 60 phút."
+  - so: 5
+    ten: "ĐIỆN SINH DẪN KÍCH"
+    ban_chat_cot_loi: "Tạo, cảm nhận và dẫn truyền dòng điện sinh học qua cơ thể, chủ yếu thông qua tiếp xúc trực tiếp."
+    kha_nang_lv1: |
+      Người chơi có thể tích tụ điện sinh học tại:
+
+      - Lòng bàn tay.
+      - Đầu ngón tay.
+      - Bàn chân.
+      - Vùng da đang tiếp xúc trực tiếp với mục tiêu.
+
+      Điện sinh học có thể được giải phóng thành nhiều mức khác nhau.
+
+      Mức yếu có thể:
+
+      - Gây cảm giác châm chích.
+      - Làm tê một vùng da nhỏ.
+      - Kiểm tra vật thể kim loại có đang dẫn điện hay không.
+      - Kích hoạt hoặc làm nhiễu thiết bị điện tử đơn giản qua tiếp xúc.
+      - Tạo tia lửa nhỏ để đốt vật liệu dễ cháy.
+
+      Mức trung bình có thể:
+
+      - Khiến bàn tay hoặc cánh tay mục tiêu co giật.
+      - Làm đối phương buông vật đang cầm.
+      - Gây mất phối hợp vận động trong khoảng 1–3 giây.
+      - Làm một sinh vật nhỏ choáng váng.
+      - Làm chập bảng mạch, khóa điện tử hoặc thiết bị cầm tay nếu chạm đúng vị trí.
+
+      Mức tối đa ở Lv1 có thể:
+
+      - Làm một người trưởng thành mất thăng bằng.
+      - Gây co cứng một nhóm cơ lớn trong thời gian ngắn.
+      - Làm NBM nhỏ hoặc đang bị thương khựng lại.
+      - Vô hiệu hóa tạm thời một thiết bị điện tử nhỏ không được che chắn tốt.
+
+      Người chơi có thể cảm nhận tương đối:
+
+      - Dây điện đang có dòng điện.
+      - Thiết bị đang hoạt động.
+      - Dòng điện rò trên bề mặt kim loại.
+      - Nhịp xung điện bất thường trong một thiết bị đang chạm.
+    gioi_han:
+      - "Phạm vi tấn công chính là tiếp xúc trực tiếp."
+      - "Tia điện chỉ có thể vượt qua khoảng không vài centimet."
+      - "Quần áo dày, cao su và vật liệu cách điện làm giảm hiệu quả."
+      - "Nước và kim loại có thể tăng khả năng dẫn điện nhưng cũng khiến dòng điện lan ngược, gây nguy hiểm cho người chơi."
+      - "Không thể phóng sét tầm xa."
+      - "Không thể tạo dòng điện đủ cấp năng lượng cho một tòa nhà hoặc phương tiện lớn."
+      - "Không thể tùy ý làm ngừng tim một người khỏe mạnh."
+      - "Không thể điều khiển hệ thần kinh mục tiêu như một con rối."
+      - "Không miễn nhiễm với điện từ nguồn bên ngoài."
+      - "Thiết bị quân sự hoặc thiết bị được chống xung điện có thể không bị ảnh hưởng."
+    tieu_hao_va_phan_phe: |
+      Phóng điện mức yếu vài lần chỉ gây:
+
+      - Tê nhẹ đầu ngón tay.
+      - Khô miệng.
+      - Tăng khoảng 1% độ khát.
+
+      Phóng điện mức trung bình liên tiếp có thể gây:
+
+      - Co giật cơ tay.
+      - Rát da.
+      - Mỏi vai và cánh tay.
+      - Tăng khoảng 2–3% độ đói.
+      - Tăng khoảng 3% độ khát.
+
+      Dùng mức tối đa nhiều lần trong thời gian ngắn có thể gây:
+
+      - Nhịp tim không đều tạm thời.
+      - Đau đầu.
+      - Run tay.
+      - Giảm độ chính xác.
+      - Bỏng điện nhẹ tại vùng phát điện.
+
+      Cưỡng ép vượt giới hạn có nguy cơ:
+
+      - Rối loạn nhịp tim nghiêm trọng.
+      - Co giật toàn thân.
+      - Ngất.
+      - Tổn thương thần kinh đầu ngón tay.
+      - Bỏng điện sâu.
+    huong_phat_trien:
+      - "Tăng cường độ dòng điện."
+      - "Phóng điện qua khoảng cách xa."
+      - "Tạo hồ quang điện."
+      - "Điều khiển chính xác cơ bắp mục tiêu."
+      - "Cảm nhận hệ thống điện qua tường."
+      - "Nạp điện cho thiết bị."
+      - "Hấp thụ điện từ nguồn ngoài."
+      - "Tạo trường điện."
+      - "Phóng xung điện từ."
+      - "Điều khiển thiết bị điện tử."
+      - "Kích thích cơ thể bản thân để tăng phản xạ."
+      - "Tạo mạng lưới điện qua nhiều mục tiêu."
+    can_bang:
+      - "Buff: tia điện phóng xa tới 1,5 mét thay vì vài centimet; thêm khả năng nạp điện cho thiết bị nhỏ."
+  - so: 6
+    ten: "GIÁP BÌ CƯƠNG HÓA"
+    ban_chat_cot_loi: "Làm cứng da, mô liên kết và một phần cơ bắp thành lớp giáp sinh học tạm thời."
+    kha_nang_lv1: |
+      Người chơi có thể cương hóa một vùng cơ thể có tổng diện tích tối đa khoảng 30% bề mặt da.
+
+      Có thể lựa chọn:
+
+      - Hai cẳng tay.
+      - Hai bàn tay.
+      - Một cánh tay.
+      - Hai cẳng chân.
+      - Ngực và bụng trước.
+      - Lưng.
+      - Vai và cổ.
+      - Một vùng nhỏ được tập trung cường hóa mạnh hơn.
+
+      Thời gian kích hoạt khoảng 0,3–1 giây.
+
+      Vùng cương hóa có thể:
+
+      - Chịu va đập tốt hơn.
+      - Giảm thương tích từ cú đấm và cú đá.
+      - Chống trầy xước.
+      - Giảm độ sâu của vết cắt.
+      - Giảm nguy cơ rách da khi bị cào.
+      - Dùng bàn tay để chặn lưỡi dao trong điều kiện phù hợp.
+      - Cường hóa nắm đấm, khuỷu tay hoặc đầu gối khi tấn công.
+      - Giữ chặt vật sắc hoặc vật nóng trong thời gian ngắn.
+
+      Độ cứng của lớp giáp tương đương vật liệu sinh học rất cứng, gần với gỗ đặc hoặc sừng động vật dày.
+
+      Người chơi có thể thay đổi vùng cương hóa trong chiến đấu, nhưng cần khoảng một giây để chuyển từ vùng này sang vùng khác.
+    gioi_han:
+      - "Không chống được đạn súng trường."
+      - "Không bảo đảm ngăn được đạn súng ngắn ở khoảng cách gần."
+      - "Không chống được nhát chém toàn lực từ vũ khí nặng."
+      - "Không ngăn hoàn toàn lực truyền vào nội tạng."
+      - "Da không rách không có nghĩa xương bên dưới không gãy."
+      - "Vùng cương hóa giảm rõ độ linh hoạt."
+      - "Cương hóa khớp làm tốc độ vận động giảm."
+      - "Không thể đồng thời cương hóa toàn thân ở Lv1."
+      - "Không thể cương hóa mắt, não hoặc cơ quan nội tạng."
+      - "Vùng cương hóa vẫn có thể bị đâm xuyên bởi lực đủ lớn."
+      - "Hóa chất, nhiệt độ và điện vẫn có thể gây tổn thương."
+    tieu_hao_va_phan_phe: |
+      Duy trì một vùng nhỏ dưới 10 phút gây:
+
+      - Căng da.
+      - Mỏi nhẹ.
+      - Tăng khoảng 1% độ đói và độ khát.
+
+      Cương hóa diện tích lớn trong 10–20 phút có thể gây:
+
+      - Cứng khớp.
+      - Tê bì.
+      - Chuột rút nhẹ.
+      - Tăng khoảng 3% độ đói.
+      - Tăng khoảng 3% độ khát.
+
+      Chuyển vùng cương hóa liên tục trong chiến đấu có thể gây:
+
+      - Đau cơ.
+      - Giảm phản xạ.
+      - Rách mao mạch nhỏ.
+      - Mất cảm giác tạm thời.
+
+      Cưỡng ép cương hóa toàn thân hoặc duy trì quá lâu có nguy cơ:
+
+      - Thiếu máu cục bộ.
+      - Nứt da.
+      - Hoại tử mô nhẹ.
+      - Rách cơ.
+      - Tổn thương khớp.
+    huong_phat_trien:
+      - "Tăng diện tích cương hóa."
+      - "Tăng độ cứng."
+      - "Giảm mất linh hoạt."
+      - "Cương hóa toàn thân."
+      - "Tạo gai hoặc lưỡi giáp."
+      - "Cương hóa xương."
+      - "Cương hóa nội tạng."
+      - "Chống đạn."
+      - "Chống nhiệt."
+      - "Chống hóa chất."
+      - "Phản chấn lực va đập."
+      - "Tự động cương hóa vùng sắp bị tấn công."
+    can_bang:
+      - "Buff: diện tích cương hóa 30% → 50% bề mặt da; độ cứng gần thép non, chặn được đạn súng ngắn ở khoảng cách trung bình; chuyển vùng còn 0,5 giây."
+  - so: 7
+    ten: "HỒNG NGOẠI NHÃN VỰC"
+    ban_chat_cot_loi: "Chuyển thị giác sang phổ nhiệt, cho phép nhận biết sự khác biệt nhiệt độ giữa vật thể và môi trường."
+    kha_nang_lv1: |
+      Người chơi có thể kích hoạt thị giác hồng ngoại trong tối đa 20 phút liên tục.
+
+      Trong điều kiện thoáng, tầm quan sát hiệu quả khoảng:
+
+      - 60 mét để phát hiện nguồn nhiệt lớn.
+      - 30 mét để nhận dạng hình dạng người hoặc sinh vật.
+      - 10–15 mét để nhận biết chi tiết chuyển động.
+
+      Người chơi có thể:
+
+      - Nhìn trong bóng tối hoàn toàn.
+      - Phát hiện người hoặc NBM đang ẩn nấp.
+      - Nhận biết sinh vật còn sống qua thân nhiệt.
+      - Phát hiện động cơ vừa hoạt động.
+      - Nhìn thấy dấu tay hoặc dấu chân nhiệt còn mới.
+      - Ước lượng vị trí đường ống nóng.
+      - Phát hiện vùng thiết bị đang quá nhiệt.
+      - Nhận biết một thi thể mới chết khác với thi thể đã lạnh.
+      - Phát hiện cháy âm hoặc nguồn nhiệt sau vật cản mỏng.
+
+      Có thể nhìn xuyên tương đối qua:
+
+      - Rèm mỏng.
+      - Vải.
+      - Tấm gỗ mỏng.
+      - Lớp thạch cao mỏng.
+      - Sương nhẹ.
+      - Khói không quá dày.
+
+      Dấu nhiệt thường tồn tại từ vài giây đến vài phút tùy môi trường.
+    gioi_han:
+      - "Không nhìn xuyên tường bê tông."
+      - "Không nhìn xuyên kim loại dày."
+      - "Không nhìn xuyên kính theo cách giống mắt thường; kính có thể phản xạ nhiệt."
+      - "Không phân biệt khuôn mặt chỉ bằng nhiệt từ xa."
+      - "Không xác định chính xác danh tính mục tiêu."
+      - "Nguồn nhiệt nhân tạo có thể tạo mồi nhử."
+      - "Môi trường quá nóng làm giảm độ tương phản."
+      - "Mưa lớn, gió mạnh và nước làm dấu nhiệt biến mất nhanh."
+      - "Không nhìn được vật thể không có khác biệt nhiệt đáng kể."
+      - "Không phát hiện ý định hoặc cảm xúc."
+      - "Dị năng không thay thế kính bảo hộ trước ánh sáng mạnh."
+    tieu_hao_va_phan_phe: |
+      Dùng dưới 10 phút chỉ gây:
+
+      - Mỏi mắt nhẹ.
+      - Khô mắt.
+      - Khó thích nghi ánh sáng trong vài giây sau khi tắt.
+
+      Dùng từ 10–20 phút có thể gây:
+
+      - Nhức đầu.
+      - Hoa mắt.
+      - Khó phân biệt màu sắc trong thời gian ngắn.
+      - Tăng khoảng 2% độ khát.
+
+      Chuyển đổi liên tục giữa thị giác thường và hồng ngoại có thể gây:
+
+      - Buồn nôn.
+      - Chóng mặt.
+      - Sai lệch ước lượng khoảng cách.
+
+      Cưỡng ép sử dụng dưới ánh sáng hoặc nhiệt độ cực mạnh có nguy cơ:
+
+      - Xuất huyết mắt.
+      - Đau mắt dữ dội.
+      - Mù tạm thời.
+      - Giảm thị lực trong vài giờ.
+    huong_phat_trien:
+      - "Tăng tầm nhìn."
+      - "Nhìn xuyên vật cản dày hơn."
+      - "Phân tích nhiệt độ chính xác."
+      - "Nhìn dấu nhiệt cũ hơn."
+      - "Kết hợp thị giác thường và hồng ngoại."
+      - "Phát hiện mạch máu."
+      - "Nhận biết trạng thái sức khỏe."
+      - "Phân biệt NBM giả dạng."
+      - "Nhìn phổ tử ngoại."
+      - "Nhìn bức xạ."
+      - "Theo dõi nhiều mục tiêu."
+      - "Chia sẻ hình ảnh nhiệt cho người khác."
+    can_bang:
+      - "Buff: thời lượng 20 → 40 phút; tầm quan sát 60/30/15 → 90/45/20 mét; thêm chế độ nhìn chồng (thường + nhiệt) tối đa 5 phút."
+  - so: 8
+    ten: "ĐỘC TUYẾN TIẾT XUẤT"
+    ban_chat_cot_loi: "Hình thành các tuyến sinh học đặc biệt có khả năng sản xuất một loại độc thần kinh nhẹ."
+    kha_nang_lv1: |
+      Dị năng tạo ra một loại độc cố định, không thể tùy ý thay đổi tác dụng trong từng lần sử dụng.
+
+      Độc Lv1 chủ yếu gây:
+
+      - Tê cục bộ.
+      - Giảm khả năng điều khiển cơ.
+      - Buồn nôn.
+      - Chóng mặt.
+      - Giảm khả năng phối hợp vận động.
+
+      Độc có thể được tiết qua:
+
+      - Nước bọt.
+      - Đầu ngón tay.
+      - Lòng bàn tay.
+      - Vùng da chuyên biệt do dị năng hình thành.
+
+      Người chơi có thể tích trữ an toàn tối đa khoảng 10 ml độc trong các tuyến.
+
+      Cơ thể cần khoảng một giờ và đủ dinh dưỡng để tái tạo lượng độc đã sử dụng.
+
+      Phương thức đưa độc vào mục tiêu:
+
+      - Qua vết thương hở.
+      - Qua mắt hoặc niêm mạc.
+      - Qua thức ăn hoặc nước uống.
+      - Qua vũ khí đã bôi độc.
+      - Qua vết cắn.
+      - Tiếp xúc lâu với vùng da mỏng.
+
+      Tác dụng khi vào máu hoặc niêm mạc:
+
+      - Bắt đầu sau khoảng 5–20 giây.
+      - Kéo dài từ vài phút đến hơn mười phút tùy liều lượng và thể chất mục tiêu.
+
+      Độc tiếp xúc với da nguyên vẹn thường chỉ gây:
+
+      - Tê.
+      - Ngứa.
+      - Rát.
+      - Yếu cơ cục bộ.
+    gioi_han:
+      - "Không gây chết người ngay lập tức."
+      - "Không đủ mạnh để hạ gục một NBM lớn chỉ với lượng rất nhỏ."
+      - "Không thể tự chọn giữa độc gây mê, độc hoại tử hoặc độc tử vong."
+      - "Mục tiêu có thể kháng độc."
+      - "Quần áo và găng tay có thể ngăn tiếp xúc."
+      - "Độc bị pha loãng nhanh trong nước."
+      - "Nhiệt độ cao có thể phá hủy độc tính."
+      - "Người chơi có khả năng kháng độc của bản thân nhưng không miễn nhiễm tuyệt đối."
+      - "Không tạo lượng độc vô hạn."
+      - "Không phun độc thành đám mây ở Lv1."
+    tieu_hao_va_phan_phe: |
+      Sản xuất và sử dụng lượng nhỏ gây:
+
+      - Khô miệng.
+      - Khát nước.
+      - Mệt nhẹ.
+      - Tăng khoảng 2% độ đói và độ khát.
+
+      Dùng gần hết lượng độc dự trữ có thể gây:
+
+      - Buồn nôn.
+      - Đau bụng.
+      - Chóng mặt.
+      - Tăng khoảng 5% độ đói.
+      - Tăng khoảng 5% độ khát.
+
+      Ép cơ thể sản xuất độc liên tục có thể gây:
+
+      - Độc rò ngược vào máu.
+      - Co giật cơ.
+      - Sốt.
+      - Đau gan và thận.
+
+      Cưỡng ép vượt giới hạn có nguy cơ:
+
+      - Ngộ độc bản thân.
+      - Suy gan hoặc suy thận tạm thời.
+      - Co giật.
+      - Ngất.
+      - Tổn thương tuyến độc.
+    huong_phat_trien:
+      - "Tăng lượng độc."
+      - "Tăng tốc tái tạo."
+      - "Tăng độc tính."
+      - "Tạo nhiều loại độc."
+      - "Tạo chất giải độc."
+      - "Phun độc dạng sương."
+      - "Tạo độc qua móng hoặc răng."
+      - "Kháng nhiều loại độc."
+      - "Phân tích độc từ sinh vật khác."
+      - "Tạo độc gây mê."
+      - "Tạo độc hoại tử."
+      - "Điều khiển thời gian phát tác."
+    can_bang:
+      - "Buff: tích trữ 10 → 20 ml; tái tạo 1 giờ → 30 phút; thêm biến thể độc gây mê nhẹ với mục tiêu yếu."
+  - so: 9
+    ten: "BÀO TỬ CỘNG SINH"
+    ban_chat_cot_loi: "Nuôi dưỡng một chủng bào tử cộng sinh trong cơ thể và phát tán chúng để tạo màng sinh học cầm máu hoặc gây kích ứng."
+    kha_nang_lv1: |
+      Người chơi có thể tạo hai mức mật độ bào tử.
+
+      Mật độ thấp có tác dụng hỗ trợ vết thương:
+
+      - Bám lên vết cắt ngoài da.
+      - Tạo màng sinh học giúp làm chậm chảy máu.
+      - Giữ mép vết thương tạm thời.
+      - Hạn chế bụi bẩn tiếp tục lọt vào.
+      - Giảm nhẹ nguy cơ mất máu trong khi chờ sơ cứu.
+      - Duy trì từ 20–60 phút.
+
+      Mật độ cao có tác dụng kích ứng:
+
+      - Gây cay mắt.
+      - Gây ho.
+      - Gây ngứa da.
+      - Làm mục tiêu khó quan sát.
+      - Làm sinh vật có khứu giác nhạy mất tập trung.
+      - Làm chậm truy đuổi trong không gian hẹp.
+
+      Người chơi có thể phát tán bào tử:
+
+      - Qua hơi thở.
+      - Qua lòng bàn tay.
+      - Qua vùng da trên cánh tay.
+
+      Một lần phát tán có thể tạo đám mây bán kính khoảng 3 mét, tồn tại 10–30 giây tùy gió.
+
+      Cơ thể có thể dự trữ lượng bào tử đủ cho khoảng ba lần phát tán lớn trước khi cần tái tạo.
+    gioi_han:
+      - "Bào tử không chữa lành vết thương."
+      - "Không nối được động mạch lớn."
+      - "Không thay thế băng gạc hoặc thuốc sát trùng."
+      - "Không tự phân biệt đồng minh và kẻ địch trong đám mây."
+      - "Mặt nạ và kính bảo hộ làm giảm hiệu quả kích ứng."
+      - "Gió mạnh phân tán bào tử nhanh."
+      - "Không khống chế cơ thể mục tiêu."
+      - "Không mọc nấm ngay lập tức trên sinh vật."
+      - "Không tạo dịch bệnh ở Lv1."
+      - "Bào tử của người chơi có thể bị nhiệt, hóa chất hoặc tia cực tím tiêu diệt."
+    tieu_hao_va_phan_phe: |
+      Sử dụng một lượng nhỏ trên vết thương gây:
+
+      - Ngứa da.
+      - Khát nhẹ.
+      - Tăng khoảng 1% độ đói.
+
+      Phát tán một đám mây lớn có thể gây:
+
+      - Ho.
+      - Rát cổ.
+      - Tăng khoảng 2–3% độ đói.
+      - Tăng khoảng 3% độ khát.
+
+      Phát tán liên tục có thể gây:
+
+      - Dị ứng.
+      - Nổi mẩn.
+      - Khó thở.
+      - Sốt nhẹ.
+      - Giảm khả năng tạo bào tử.
+
+      Cưỡng ép tạo bào tử khi cơ thể suy yếu có nguy cơ:
+
+      - Tự nhiễm nấm nhẹ.
+      - Viêm đường hô hấp.
+      - Sốt cao.
+      - Kiệt sức.
+      - Mất nước.
+    huong_phat_trien:
+      - "Tăng phạm vi phát tán."
+      - "Chọn mục tiêu không bị ảnh hưởng."
+      - "Tạo bào tử chữa lành."
+      - "Tạo bào tử gây mê."
+      - "Tạo bào tử độc."
+      - "Tạo mạng nấm cảm nhận chuyển động."
+      - "Giao tiếp qua bào tử."
+      - "Kiểm soát thực vật và nấm."
+      - "Tạo giáp sợi nấm."
+      - "Lọc không khí."
+      - "Tạo cơ thể cộng sinh."
+      - "Hình thành khu vực nấm sống độc lập."
+    can_bang:
+      - "Buff: dự trữ 3 → 5 lần phát tán; đám mây 3 → 5 mét; màng cầm máu bền 60 → 120 phút; thêm bào tử đánh dấu theo dấu mục tiêu 10 phút."
+  - so: 10
+    ten: "TỪ LỰC KHIÊN DẪN"
+    ban_chat_cot_loi: "Tạo lực hút và lực đẩy có định hướng lên vật liệu sắt từ."
+    kha_nang_lv1: |
+      Người chơi có thể tác động lên vật chứa sắt trong phạm vi tối đa 8 mét.
+
+      Giới hạn tác động:
+
+      - Một vật tối đa khoảng 20 kg.
+      - Hoặc nhiều vật có tổng khối lượng không quá 30 kg.
+
+      Người chơi có thể:
+
+      - Kéo dao, chìa khóa hoặc dụng cụ kim loại về phía mình.
+      - Giật vũ khí nhỏ khỏi tay đối phương nếu lực giữ không quá lớn.
+      - Đẩy một vật kim loại ra khỏi quỹ đạo.
+      - Mở chốt kim loại đơn giản.
+      - Thu gom đinh, ốc hoặc mảnh kim loại.
+      - Làm rung vũ khí kim loại để gây khó cầm.
+      - Giữ một vật kim loại lơ lửng trong thời gian ngắn.
+      - Dùng tấm kim loại làm khiên di động.
+      - Cảm nhận tương đối vị trí vật sắt trong phạm vi.
+
+      Lực tác động tương đương sức kéo hoặc đẩy của một người trưởng thành khỏe mạnh.
+
+      Đối với vật đang bay nhanh, dị năng có thể:
+
+      - Làm lệch đường bay.
+      - Giảm độ chính xác.
+      - Hất mảnh kim loại nhỏ sang bên.
+    gioi_han:
+      - "Chỉ tác động mạnh lên vật liệu sắt từ."
+      - "Nhôm, đồng, nhựa, gỗ và nhiều hợp kim không bị ảnh hưởng đáng kể."
+      - "Không điều khiển máu thông qua sắt trong cơ thể."
+      - "Không bẻ cong xe hơi hoặc công trình lớn."
+      - "Không chặn chắc chắn đạn đang bay."
+      - "Đạn có tốc độ cao chỉ có thể bị làm lệch nhẹ nếu người chơi phát hiện và kích hoạt kịp."
+      - "Vật bị người mạnh giữ chặt có thể không bị giật khỏi tay."
+      - "Không tạo từ trường đủ phá thiết bị điện tử diện rộng."
+      - "Không tự động phân biệt vật nguy hiểm."
+      - "Lực hút cũng có thể kéo vật về phía người chơi và gây thương tích."
+    tieu_hao_va_phan_phe: |
+      Tác động lên vật dưới 5 kg chỉ gây:
+
+      - Nặng đầu nhẹ.
+      - Tê tay.
+      - Tăng khoảng 1% độ khát.
+
+      Tác động lên 5–20 kg có thể gây:
+
+      - Ù tai.
+      - Đau đầu.
+      - Mỏi vai.
+      - Tăng khoảng 2–4% thể lực tiêu hao.
+
+      Điều khiển nhiều vật cùng lúc gây:
+
+      - Khó tập trung.
+      - Buồn nôn.
+      - Mất định hướng.
+      - Giảm độ chính xác.
+
+      Cưỡng ép tác động lên khối kim loại quá lớn có nguy cơ:
+
+      - Chảy máu mũi.
+      - Đau đầu dữ dội.
+      - Ngất.
+      - Tạm thời mất cảm giác phương hướng.
+      - Vật thể mất kiểm soát lao ngược về phía người dùng.
+    huong_phat_trien:
+      - "Tăng khối lượng."
+      - "Tăng phạm vi."
+      - "Điều khiển nhiều vật."
+      - "Tạo lực xoắn."
+      - "Uốn kim loại."
+      - "Chặn đạn."
+      - "Tạo khiên kim loại."
+      - "Tạo trường từ."
+      - "Bay bằng vật kim loại."
+      - "Cảm nhận kim loại xuyên tường."
+      - "Điều khiển dòng điện cảm ứng."
+      - "Tác động lên kim loại không có tính sắt từ."
+    can_bang:
+      - "Buff: giới hạn 20/30 → 50/80 kg; phạm vi 8 → 15 mét; lực tương đương hai người trưởng thành; chặn được đạn súng ngắn bằng tấm chắn nếu kịp phản ứng."
