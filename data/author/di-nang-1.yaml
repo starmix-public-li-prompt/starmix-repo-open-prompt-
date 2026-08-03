@@ -1,4 +1,3 @@
-```yaml
 #DI NĂNG SỐ 1
   - so: 1
     ten: "TĨNH ÂM TUYỆT VỰC"
@@ -94,4 +93,3 @@
     can_bang:
       - "Buff: bán kính vùng 6 → 10 mét; khoảng cách đặt tâm 12 → 20 mét; duy trì an toàn 30 → 45 phút."
 # HẾT FILE
-```
