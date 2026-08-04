@@ -9,4 +9,4 @@ title: DỮ LIỆU
 
 # NPC
 
-- [NPC 1] ( https://github.com/starmix-public-li-prompt/starmix-repo-open-prompt-/blob/main/data/author-NPC/npc-01.md)
+- [NPC 1](https://raw.githubusercontent.com/starmix-public-li-prompt/starmix-repo-open-prompt-/refs/heads/main/data/author-NPC/npc-01.md)
