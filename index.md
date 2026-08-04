@@ -5,6 +5,8 @@ title: DỮ LIỆU
 
 # DỊ NĂNG
 
-- [Tài liệu 1](docs/tai-lieu-1.html)
-- [Tài liệu 2](docs/tai-lieu-2.html)
-- [Tài liệu 3](docs/tai-lieu-3.html)
+- [DỊ NĂNG 1](https://raw.githubusercontent.com/starmix-public-li-prompt/starmix-repo-open-prompt-/refs/heads/main/data/author-NPC/npc-01.md)
+
+# NPC
+
+- [NPC 1] ()
