@@ -1,0 +1,94 @@
+Event clocks:
+  - Tên: "Cuộc săn Dị Số"
+    Chủ thể: "Ty Giám Thiên Ngoại và các phe săn đuổi"
+    Mục tiêu: "Xác định, bắt hoặc tiêu diệt Dị Số"
+    Tiến độ: "0/6"
+    Điều kiện tiến triển:
+      - "Dị Số tiếp tục dùng cơ chế ngoại lai"
+      - "Một phe thu được dấu vết pháp tắc hoặc nhân chứng"
+      - "Thông tin bị mua bán giữa các tổ chức"
+    Dấu hiệu:
+      - "Phong tỏa thành trì"
+      - "Kiểm tra pháp bảo và linh hồn"
+      - "Tin đồn về kim lôi hoặc người biến mất"
+    Điều kiện trì hoãn:
+      - "Dị Số ngừng can thiệp"
+      - "Dấu vết bị đánh lạc hướng"
+      - "Các phe tranh chấp quyền bắt giữ"
+    Hậu quả khi hoàn thành: "Dị Số bị định vị; một cuộc vây bắt hoặc phán quyết Thiên Đạo trở nên cận kề."
+
+  - Tên: "Tử Sĩ Phá Thệ"
+    Chủ thể: "U Minh Huyết Minh và kẻ sáng tạo tà pháp"
+    Mục tiêu: "Hoàn thiện và phổ biến phương pháp biến tử sĩ thành vũ khí"
+    Tiến độ: "0/6"
+    Điều kiện tiến triển:
+      - "Thử nghiệm thành công"
+      - "Có thêm vật liệu và tử sĩ"
+      - "Không ai truy ra nguồn cung"
+    Dấu hiệu:
+      - "Ngọc Thạch Câu Phần xuất hiện"
+      - "Các vụ lập thệ bất thường"
+      - "Cường giả bị tập kích sau lời thệ"
+    Điều kiện trì hoãn:
+      - "Phá nguồn huyết dược"
+      - "Giải cứu tử sĩ"
+      - "Công khai bằng chứng và phương pháp nhận biết"
+    Hậu quả khi hoàn thành: "Tà pháp lan sang nhiều châu, làm trật tự khiêu chiến và lòng tin giữa các cường giả sụp đổ."
+
+  - Tên: "Chiến tranh tín dụng"
+    Chủ thể: "Vạn Đạo Tiên Minh và Cửu Đỉnh Thương Hội"
+    Mục tiêu: "Kiểm soát tài nguyên, tín dụng và đầu mối truyền tống"
+    Tiến độ: "0/8"
+    Điều kiện tiến triển:
+      - "Cấm vận mở rộng"
+      - "Một đầu mối truyền tống bị chiếm"
+      - "Khế ước thương mại bị phá"
+      - "Lính đánh thuê được huy động"
+    Dấu hiệu:
+      - "Giá đan dược và pháp bảo tăng"
+      - "Tín phiếu mất giá"
+      - "Thương đội bị kiểm tra hoặc mất tích"
+      - "Quân lực tập trung gần truyền tống trận"
+    Điều kiện trì hoãn:
+      - "Đàm phán bảo chứng"
+      - "Mở nguồn cung thay thế"
+      - "Giữ trung lập các truyền tống trận"
+    Hậu quả khi hoàn thành: "Chiến tranh liên châu bùng nổ qua các đầu mối truyền tống."
+
+  - Tên: "Thú triều Bắc tiến"
+    Chủ thể: "Đông Hoang Vạn Yêu Đình và các đàn thú di cư"
+    Mục tiêu: "Mở rộng đường sống qua hành lang không gian"
+    Tiến độ: "0/6"
+    Điều kiện tiến triển:
+      - "Hành lang mở rộng"
+      - "Nguồn thức ăn Đông Hoang tiếp tục suy giảm"
+      - "Các Yêu Vương phá thêm kết giới"
+    Dấu hiệu:
+      - "Thú nhỏ xuất hiện trước"
+      - "Dấu chân, xác thú và dòng người tị nạn"
+      - "Giá lương thực Bắc Băng Châu tăng"
+    Điều kiện trì hoãn:
+      - "Khôi phục nguồn thức ăn"
+      - "Đóng hành lang"
+      - "Chuyển hướng đàn thú"
+      - "Đạt thỏa thuận lãnh thổ"
+    Hậu quả khi hoàn thành: "Nhiều thành băng thất thủ và một cuộc di cư quy mô lớn bắt đầu."
+
+  - Tên: "Khủng hoảng năm thứ 249"
+    Chủ thể: "Các liên minh Nhân Tiên tại Thiên Châu"
+    Mục tiêu: "Giành ưu thế trước Chân Tiên Cơ Duyên"
+    Tiến độ: "0/12 tháng"
+    Điều kiện tiến triển:
+      - "Mỗi tháng trong thế giới trôi qua"
+      - "Liên minh lớn tan rã"
+      - "Thiên Minh Công Ước bị vi phạm"
+    Dấu hiệu:
+      - "Động phủ đóng kín"
+      - "Giá vật tư phòng hộ tăng"
+      - "Truyền âm xuống hạ giới dày đặc"
+      - "Phá hoại tiên mạch và mua bán tình báo gia tăng"
+    Điều kiện trì hoãn:
+      - "Khôi phục lòng tin giữa các liên minh"
+      - "Xác minh quy tắc của bí cảnh"
+      - "Bảo vệ Thiên Cực Đài và tiên mạch chung"
+    Hậu quả khi hoàn thành: "Tiên Khí Triều Tịch bắt đầu và ba bí cảnh xuất hiện."
