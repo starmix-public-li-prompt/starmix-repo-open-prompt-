@@ -1,3 +1,4 @@
+```yaml
 NPCs:
   - Tên: "Tạ Vân Trầm"
     Vai trò: "Chấp sự điều tra của Ty Giám Thiên Ngoại"
@@ -149,3 +150,4 @@ NPCs:
     Giới hạn đạo đức:
       - "Không có giới hạn đã được xác nhận."
     Trạng thái hiện tại: "Đang di chuyển giữa U Minh Châu và các chợ đen liên châu."
+```
