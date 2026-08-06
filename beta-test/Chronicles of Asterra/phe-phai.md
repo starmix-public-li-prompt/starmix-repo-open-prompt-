@@ -1,5 +1,5 @@
 ````yaml
-​1. Giáo Hội Ánh Sáng Thuần Khiết (The Pure Light Church)
+​1. **Giáo Hội Ánh Sáng Thuần Khiết (The Pure Light Church)**
 
 ​- Học thuyết / Tôn chỉ: Tin vào Trật tự Tuyệt đối. Cho rằng ma thuật cổ đại và các dị giáo là mầm mống của sự hủy diệt, cần phải được thanh tẩy bằng ánh sáng và ngọn lửa.
 
