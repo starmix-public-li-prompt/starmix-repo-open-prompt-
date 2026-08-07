@@ -1,4 +1,5 @@
 ````yaml
+# PHE PHÁI
 ​1. Giáo Hội Ánh Sáng Thuần Khiết (The Pure Light Church)
 
 ​- Học thuyết / Tôn chỉ: Tin vào Trật tự Tuyệt đối. Cho rằng ma thuật cổ đại và các dị giáo là mầm mống của sự hủy diệt, cần phải được thanh tẩy bằng ánh sáng và ngọn lửa.
@@ -278,4 +279,5 @@
 - Nguồn lực cốt lõi: Sự trung thành tuyệt đối của các bầy quái vật/thú rừng. Sở hữu nguồn cung cấp thảo dược quý hiếm nhất lục địa.
 
 - Kẻ thù truyền kiếp: Lữ đoàn thợ săn tiền thưởng, bọn buôn lậu thú quý hiếm, và những kẻ đi săn lấy lõi ma lực.
+# KẾT THÚC 
 ````
