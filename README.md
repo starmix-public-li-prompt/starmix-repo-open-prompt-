@@ -1,6 +1,6 @@
 ```yaml
 #THÔNG TIN
-- Đây là nơi để các bạn lưu trữ những file github lớn cho prompt của bản thân trong Google AI Studio
+- Đây là nơi để tôi lưu trữ những file github lớn cho prompt của bản thân trong Google AI Studio
 
 - Trang web này hoàn toàn miễn phí
 
